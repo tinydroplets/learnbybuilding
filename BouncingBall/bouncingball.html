@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <style>
+            body {
+                display: flex;
+                background-color: black;
+                justify-content: center;
+                align-items: center;
+            }
+            .ball {
+                width: 200px;
+                height: 200px;
+                background-color: rebeccapurple;
+                border-radius: 50%;
+                animation: bounce 2s infinite; 
+                position: absolute;
+                bottom: 50px;
+            }
+            @keyframes bounce {
+               0%,100% {
+                transform: translateY(0);
+               } 
+               50% {
+                transform: translateY(-300px);
+               } 
+            }
+        </style>
+    </head>
+    <body>
+       <div class="ball"></div> 
+    </body>
+</html>

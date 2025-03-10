@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: antiquewhite;
+        font-family: "Courier New", Courier, monospace;
+      }
+      .card {
+        background-color: white;
+        width: 300px;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+        text-align: center;
+      }
+      .profileimage {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+      .name {
+        font-size: 24px;
+        font-weight: 500;
+        color: darkred;
+        margin: 10px;
+      }
+      .jobtitle {
+        font-size: 16px;
+        font-weight: 400;
+        color: darkred;
+        margin: 5px 0px;
+      }
+      .bio {
+        font-size: 14px;
+        color: darkblue;
+        margin-bottom: 20px;
+        line-height: 1.5;
+      }
+      .contactbutton {
+        padding: 10px 20px;
+        background-color: #ffff00;
+        font-size: 16px;
+        border: none;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+      }
+
+      .contactbutton:hover{
+        background-color: #ffff99;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img src="superman.png" alt="Profile Image" class="profileimage" />
+      <div class="name">Superman</div>
+      <div class="jobtitle">Hero | Man of Steel</div>
+      <div class="bio">
+        From Krypton, the Last Son of Krypton. Defends Earth with strength,
+        speed, and courage. Always fighting for truth and justice.
+      </div>
+      <button class="contactbutton">Call for Help</button>
+    </div>
+  </body>
+</html>
